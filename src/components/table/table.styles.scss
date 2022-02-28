@@ -1,0 +1,22 @@
+.edit-link {
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #ff6060;
+  color: #fff;
+}
+
+// overriding pagination styles
+.MuiTableFooter-root {
+  .MuiTableRow-root {
+    .MuiTablePagination-root {
+      display: flex;
+      justify-content: center;
+
+      .MuiTablePagination-toolbar {
+        width: auto !important;
+      }
+    }
+  }
+}

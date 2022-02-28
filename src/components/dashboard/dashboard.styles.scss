@@ -1,0 +1,24 @@
+.dashboard {
+  .top-area {
+    .logo {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+  }
+
+  .bottom-area {
+    .add-btn {
+      text-align: right;
+      margin-bottom: 2rem;
+
+      button {
+        border: none;
+        font-size: 1.2rem;
+        padding: 1rem 2.5rem;
+        background-color: rgb(255, 96, 96);
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+}
